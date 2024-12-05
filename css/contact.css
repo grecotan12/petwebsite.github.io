@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDBDBD;
+    margin-top: -1rem;
+    height: auto;
+}
+
+footer {
+    margin: 0;
+}
+
+form {
+    padding-top: 20px;
+}
+
+label {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+}
+
+.test {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+#time, #pet-name {
+    margin-right: 1rem;
+}
+
+#pet-type, #pet-age {
+    margin-right: 15px;
+}
+
+
+#contact button {
+    background-color: #6699CC;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    height: 50%;
+    float: right;
+}
+
+#contact button:hover {
+    background-color: #003B6D;
+}
