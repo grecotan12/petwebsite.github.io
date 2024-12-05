@@ -1,0 +1,65 @@
+main {
+    background-color:#BDBDBD;
+    width: 100%;
+    height: auto;
+    margin-top: -1rem;
+    color: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#intro h1, #fresh-water h2, #salt-water h2 {
+    margin-top: 0;
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#intro p{
+    width: 50%;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#intro img, #fresh-water img, #salt-water img{
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+#fresh-water, #salt-water {
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#fresh-water-fish, #fresh-water-info, #salt-water-fish, #salt-water-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fresh-water-info p, #fresh-water-info li, #salt-water-info p, #salt-water-info li{
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+#more-info {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 2rem;
+}
