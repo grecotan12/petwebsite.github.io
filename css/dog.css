@@ -1,0 +1,62 @@
+main {
+    background-color:#BDBDBD;
+    width: 100%;
+    height: auto;
+    margin-top: -1rem;
+    color: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#intro h1, #exercise h2, #groom h2, #vac h2 {
+    margin-top: 0;
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#intro p {
+    width: 50%;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#exercise p, #groom p, #vac p{
+    font-size: 1.5rem;
+}
+
+#exercise, #groom, #vac {
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#exercise-info, #running, #grooming, #vaccines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#groom img, #vac img {
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+#extra {
+    width: 80%;
+}
