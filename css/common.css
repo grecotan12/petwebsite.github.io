@@ -44,7 +44,7 @@ header nav li .icon-two {
     margin-left: 5px;
 }
 
-.link:hover {
+.link:hover, .active {
     background-color: #003B6D;
 }
 
@@ -59,4 +59,37 @@ header nav li a {
     justify-content: flex-end;
 }
 
+#menu1, #menu2, #menu3 {
+    display: none;
+    position: fixed;
+}
 
+#menu1 ul, #menu2 ul, #menu3 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 120px;
+    margin-top: -16px;
+    background-color: #6699CC;
+}
+
+#menu1 li, #menu2 li, #menu3 li {
+    padding: 10px;
+}
+#menu1 li:hover, #menu2 li:hover, #menu3 li:hover {
+   background-color: #003B6D; 
+}
+
+#menu1 li a, #menu2 li a, #menu3 li a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#menu2 {
+    margin-left: 100px;
+}
+
+#menu3 {
+    margin-left: 250px;
+}
