@@ -1,0 +1,62 @@
+#logo-one {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+#logo-two {
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto; 
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+header nav {
+    background-color: #6699CC;
+    margin-left: -40px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+header nav li .icon {
+    display: inline;
+    margin-right: 5px;
+}
+
+header nav li .icon-two {
+    display: inline;
+    margin-left: 5px;
+}
+
+.link:hover {
+    background-color: #003B6D;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
