@@ -61,7 +61,7 @@ header nav li a {
 
 #menu1, #menu2, #menu3 {
     display: none;
-    position: fixed;
+    position: absolute;
 }
 
 #menu1 ul, #menu2 ul, #menu3 ul {

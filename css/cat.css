@@ -1,3 +1,65 @@
 main {
-    height: 500px;
+    background-color:#BDBDBD;
+    width: 100%;
+    height: auto;
+    margin-top: -1rem;
+    color: midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#intro h1, #zero-four h2, #four-one h2, #one-seven h2, #seven-up h2 {
+    margin-top: 0;
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#intro p {
+    width: 50%;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#zero-four img, #four-one img, #one-seven img, #seven-up img {
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+#zero-four, #four-one, #one-seven, #seven-up {
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#zero-four-info, #four-one-info, #one-seven-info, #seven-up-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#kitten, #kitten-two, #cat-three, #cat-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#zero-four-info p, #zero-four-info li, #four-one-info p, #one-seven-info p, #seven-up-info p{
+    font-size: 1.5rem;
 }
